@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 import pandas as pd
 import pickle
@@ -66,5 +67,6 @@ def predict_letter_jumbling():
 def predict_word_jumbling():
     return make_prediction("Word_Jumbling", request.json)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+
