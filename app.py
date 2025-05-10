@@ -9,10 +9,10 @@ CORS(app)
 
 # Load the RAC model
 model_paths = {
-    "RAC": r"models\RAC_model.pkl",
-    "DS": r"models\DS_model.pkl",
-    "Letter_Jumbling": r"models\Letter_Jumbling_model.pkl",
-    "Word_Jumbling": r"models\word_jumbling_model.pkl",
+    "RAC": os.path.join("models", "RAC_model.pkl"),
+    "DS": os.path.join("models", "DS_model.pkl"),
+    "Letter_Jumbling": os.path.join("models", "Letter_Jumbling_model.pkl"),
+    "Word_Jumbling": os.path.join("models", "word_jumbling_model.pkl"),
 }
 
 models = {}
