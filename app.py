@@ -9,10 +9,10 @@ CORS(app)
 
 # Load the RAC model
 model_paths = {
-    "RAC": r"C:\Users\user\Documents\SLIIT\YEAR 4\SEM 1\Research\App\models\RAC_model.pkl",
-    "DS": r"C:\Users\user\Documents\SLIIT\YEAR 4\SEM 1\Research\App\models\DS_model.pkl",
-    "Letter_Jumbling": r"C:\Users\user\Documents\SLIIT\YEAR 4\SEM 1\Research\App\models\Letter_Jumbling_model.pkl",
-    "Word_Jumbling": r"C:\Users\user\Documents\SLIIT\YEAR 4\SEM 1\Research\App\models\word_jumbling_model.pkl",
+    "RAC": r"models\RAC_model.pkl",
+    "DS": r"models\DS_model.pkl",
+    "Letter_Jumbling": r"models\Letter_Jumbling_model.pkl",
+    "Word_Jumbling": r"models\word_jumbling_model.pkl",
 }
 
 models = {}
