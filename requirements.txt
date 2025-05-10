@@ -1,6 +1,6 @@
 Flask
 flask-cors
 pandas
-scikit-learn==0.24.2
+scikit-learn
 librosa
 keras
